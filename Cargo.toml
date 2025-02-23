@@ -1,0 +1,18 @@
+[package]
+name = "microkernel"
+version = "0.1.0"
+edition = "2021"
+authors = ["Adilcan Eren <adilcan[yo]riseup[yo]net>"]
+
+[dependencies]
+x86_64 = "0.14.6"
+bootloader = "0.10.12"
+
+[build-dependencies]
+cc = "1.0"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"

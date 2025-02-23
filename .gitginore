@@ -1,0 +1,15 @@
+/target/
+Cargo.lock
+
+*.o
+*.obj
+*.dSYM
+
+*.log
+
+.vscode/
+
+.DS_Store
+Thumbs.db
+
+build/
