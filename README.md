@@ -13,7 +13,7 @@
                                                                                         
 ```
 
-freesansar is an experimental microkernel written in Rust.
+freesansar WILL BE an experimental microkernel written in Rust.
 
 So my design is just a minimal impl to have the fundamental components, such as bootstrapping, cpu setup, kernel entries etc.
 
